@@ -106,8 +106,6 @@ with open("/output/model.json", "w") as json_file:
 model.save_weights("/output/model.h5")
 print("Saved model... Hurray!!!")
 
-# http://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/
-# https://www.kaggle.com/rishianand/devanagari-character-set
 # command for running the job in floydhub
 # floyd run --gpu --data <data_id> "python script.py"
 # floyd run --gpu --data ugPh9ghXNGanuQZVFdcyF2 "python deep_devnagari.py"
